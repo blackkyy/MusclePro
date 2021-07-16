@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MusclePro</title>
+
+    <!-- Bootstrap 5.0 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!-- SECTION-1 -->
+    <div id="section1">
+      <nav class="navbar navbar-dark navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="images/logo1.png" alt="" width="197" height="66" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#section2">О нас</a>
+              <a class="nav-link" href="#section3">Состав</a>
+              <a class="nav-link" href="#section4">Отзывы</a>
+              <a class="nav-link" href="#section5">Контакты</a>
+              <a class="nav-link link-special" href="#section6">Звонок</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container">
+        <div class="flexbox">
+          <div class="header-text">
+            <h1>
+              Совершенно новый <span class="special-text">Фитнес-Клуб</span> в
+              центре Ташкента
+            </h1>
+            <p>Под лежачий камень вода на течет</p>
+            <a class="btn btn-warning btn-lg" href="#" role="button"
+              >Записаться</a
+            >
+          </div>
+          <img
+            class="header-img"
+            src="images/title-arms.png"
+            alt="title-arms"
+          />
+        </div>
+      </div>
+      <div class="gradient1"></div>
+      <div class="gradient2"></div>
+    </div>
+
+    <!-- SECTION-2 -->
+    <div id="section2">
+      <div id="sec2" class="container">
+        <div class="flexbox sec2-flex">
+          <div class="sec2-text">
+            <h1 class="sec2-heading">
+              Немного о нашем <span class="special-text">клубе</span>
+            </h1>
+            <p>
+              “MusclePro” - это клуб, который органично вмещает в себе фитнес
+              зоны для тренировок в классических стандартах и новые модные
+              тенденции в финтес индустрии.
+            </p>
+            <br />
+            <p>
+              Элегантные дизайн, продуманная система безопасности, безупречные в
+              своём техническом оснащении бассейн и залы для занятий фитнесом,
+              аеробикой, йогой, большой теннис, сквош. Специализированный клуб
+              единоборств и тщательно подобранные детские программы.
+            </p>
+          </div>
+          <div class="sec2-img">
+            <img src="images/sec2-main-img.png" alt="" />
+          </div>
+        </div>
+      </div>
+      <div class="gradient3"></div>
+    </div>
+
+    <!-- SECTION-3 -->
+    <div id="section3">
+      <div class="container">
+        <h1>Наш тренерский <span class="special-text">состав</span></h1>
+
+        <!-- CAROUSEL -->
+
+        <div
+          id="carouselExampleControls"
+          class="carousel slide"
+          data-bs-interval="false"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              <img class="test-img" src="images/Sanya.png" alt="..." />
+              <h3>Александр</h3>
+              <p>Тренер</p>
+            </div>
+            <div class="carousel-item active">
+              <img class="test-img" src="images/Georg.png" alt="..." />
+              <h3>Георгий</h3>
+              <p>Тренер</p>
+            </div>
+            <div class="carousel-item">
+              <img class="test-img" src="images/Vadim.png" alt="..." />
+              <h3>Вадим</h3>
+              <p>Тренер</p>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+
+        <!-- /CAROUSEL -->
+
+        <div class="flexbox sec2-flex">
+          <div class="sec3-text">
+            <span class="sec3-heading">
+              <h3>Георгий Смирнов</h3>
+              <h5>Фитнес-тренер</h5>
+            </span>
+
+            <p class="sec3-paragraph">
+              В наш век модно быть красивым и здоровым, а, следовательно,
+              заниматься спортом, фитнесом. По стране растет число фитнес-клубов
+              и фитнес-центров. Благодаря этому велик спрос и на
+              квалифицированные кадры.
+            </p>
+          </div>
+          <img class="quote" src="images/quotes.png" alt="..." />
+          <img class="quote-inverse" src="images/quotes.png" alt="..." />
+          <div class="sec3-img">
+            <img src="images/Strukov 2.png" alt="Main-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SECTION-4 -->
+    <div id="section4">
+      <div class="container">
+        <div class="sec4-heading">
+          <h1>Отзывы наших <span class="special-text">клиентов</span></h1>
+          <br />
+        </div>
+
+        <div class="flexbox">
+          <div class="box1">
+            <img class="box-img" src="images/comment1.png" alt="" />
+            <div class="comment-text">
+              <h4>Сергей Соколов</h4>
+              <br />
+              <p>
+                Прекрасные клуб в самом центре Ташкента, этот фитнес клуб дал
+                мне возможнасть прокачать самодисциплину в себе.
+              </p>
+              <img src="images/instagram 1.png" alt="..." />
+              <p class="instagram">@sergey400</p>
+              <p class="date">11.11.2020</p>
+            </div>
+          </div>
+          <div class="box2">
+            <img class="box-img" src="images/comment2.png" alt="" />
+            <div class="comment-text">
+              <h4>Василий Петров</h4>
+              <br />
+              <p>
+                Тренер по фитнесу -Вадим! Хочу передать мое восхищение вами как
+                только это возможно в словесной форме.
+              </p>
+              <img src="images/instagram 1.png" alt="..." />
+              <p class="instagram">@petrovfitness</p>
+              <p class="date">11.11.2020</p>
+            </div>
+          </div>
+        </div>
+        <div class="gradient4"></div>
+        <div class="gradient5"></div>
+      </div>
+    </div>
+
+    <!-- SECTION-5 -->
+    <div id="section5">
+      <div class="container">
+        <h1 class="sec5-heading">
+          Запишитесь на первую бесплатную
+          <span class="special-text">тренировку</span>
+        </h1>
+        <input class="inputName" placeholder="Введите ваше имя" type="text" />
+        <input
+          class="inputNumber"
+          placeholder="Введите ваш телефон"
+          type="text"
+        />
+
+        <div class="form-check">
+          <input
+            class="form-check-input"
+            type="checkbox"
+            value=""
+            id="flexCheckDefault"
+          />
+          <label class="form-check-label" for="flexCheckDefault">
+            Я соглашаюсь на обработку моих персональных данных
+          </label>
+        </div>
+        <a class="btn btn-warning btn-lg btn-footer" href="#" role="button"
+            >Записаться
+          </a>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="container1">
+        <div class="flexbox">
+          <div class="footer-logo">
+            <img src="images/logo1.png" alt="...">
+          </div>
+          <div class="footer-text1">
+            <p>Сеть фитнес клубов “MusclePro”</p>
+              <p>(c)2020. Официальный сайт</p>
+          </div>
+          <div class="footer-text2">
+            <p>Политика конфиденциальности </p>
+            <p>+998 (91) 123 45 67</p>
+          </div>
+          <div class="social-media">
+            <p>Мы в соцсетях:</p>
+            <a href="https://www.instagram.com">
+              <img src="images/instagram 1.png" alt="">
+            </a>
+            <a href="https://www.facebook.com">
+              <img src="images/facebook1.png" alt="">
+            </a>
+            <a href="https://ru.linkedin.com">
+              <img src="images/linkedin1.png" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
